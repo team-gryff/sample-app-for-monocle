@@ -2,8 +2,13 @@ import React from 'react';
 
 
 function Comment(props) {
+  
+  const commentStyle = {
+    padding: '1% 2%'
+  }
+  
   return(
-    <p>{props.name} : {props.comment}</p>
+    <p style={commentStyle}><strong>{props.name}</strong> : {props.comment}</p>
   )
 }
 

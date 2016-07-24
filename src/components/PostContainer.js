@@ -30,7 +30,6 @@ export default class PostContainer extends Component {
   }
 
   likePicture(i) {
-    console.log(i);
     const bool = !this.state.liked[i];
     const liked = this.state.liked;
     liked[i] = bool;
@@ -87,8 +86,12 @@ export default class PostContainer extends Component {
     })
 
     const postContainerStyle = {
-      width: '80%',
-      margin: '0 auto'
+      width: '50%',
+      position: 'relative',
+      marginLeft: 'auto',
+      marginRight: 'auto',
+      marginTop: '20px',
+      marginBottom: '20px'
     }
 
     return (

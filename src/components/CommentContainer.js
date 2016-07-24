@@ -11,9 +11,14 @@ function CommentContainer(props) {
       comment={ele.comment}
     />
   })
+
+  const likesStyle = {
+    padding: '1% 2%'
+  }
+
   return (
     <div>
-      {props.likes} likes
+      <p style={likesStyle}>{props.likes} likes</p>
       <Comment 
       key={0}
       name={props.name}
@@ -21,6 +26,7 @@ function CommentContainer(props) {
       />
       {comments}
       <CommentBox
+        liked={props.liked}
         handleChange={props.handleChange}
         handleSubmit={props.handleSubmit}
         likePicture={props.likePicture}
