@@ -4,7 +4,7 @@ import React from 'react';
 function Comment(props) {
   
   const commentStyle = {
-    padding: '1% 2%'
+    padding: '0 2%'
   }
   
   return(

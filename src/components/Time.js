@@ -8,7 +8,7 @@ function Time(props) {
     float: 'right',
     fontFamily: 'Helvetica Neue',
     verticalAlign: 'middle',
-    padding: '2% 2%'
+    padding: '3% 2%'
   }
   
   return (
