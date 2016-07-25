@@ -1,76 +1,22 @@
+
 module.exports = {
   username: 'jerrymaolol',
   posts: [
     {
-      name: 'jerrymaolol',
+      name: 'kygomusic',
       location: 'Codesmith',
       time: 3,
-      pictureURL: 'https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/13722130_1742899879284687_286829510_n.jpg',
-      profPictureURL: '',
+      pictureURL: './src/kygo.jpg',
+      profPictureURL: './src/jerry.jpg',
       likes: 100,
       liked: false,
-      caption: 'lol',
+      caption: 'So much fun joining @martingarrix at his show last night🙌🏼🔥such a crazy night!! also just hit 1 million followers, thank you guys so much❤️',
       comments: [
         {
-          name: 'cooldude',
-          comment: 'nice pic man!',
-        },
-        {
-          name: 'cooldude',
-          comment: 'nice pic man!',
-        },
-        {
-          name: 'coolgurl',
-          comment: 'like for like pls',
-        },
-      ],
-    },
-    {
-      name: 'unofficialjdavis',
-      location: 'Codesmith',
-      time: 3,
-      pictureURL: 'https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/13722130_1742899879284687_286829510_n.jpg',
-      profPictureURL: '',
-      likes: 100,
-      liked: false,
-      caption: 'lolol',
-      comments: [
-        {
-          name: 'cooldude',
-          comment: 'nice pic man!',
-        },
-        {
-          name: 'cooldude',
-          comment: 'nice pic man!',
-        },
-        {
-          name: 'coolgurl',
-          comment: 'like for like pls',
-        },
-      ],
-    },{
-      name: 'mbchoa',
-      location: '',
-      time: 3,
-      pictureURL: 'https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/13722130_1742899879284687_286829510_n.jpg',
-      profPictureURL: '',
-      likes: 100,
-      liked: false,
-      caption: 'lololol',
-      comments: [
-        {
-          name: 'cooldude',
-          comment: 'nice pic man!',
-        },
-        {
-          name: 'cooldude',
-          comment: 'nice pic man!',
-        },
-        {
-          name: 'coolgurl',
-          comment: 'like for like pls',
-        },
+          name: 'love2dance22',
+          comment: 'such a fun show!!',
+        }
       ],
     }
-  ]
+  ],
 }
