@@ -86,7 +86,7 @@ export default class PostContainer extends Component {
     })
 
     const postContainerStyle = {
-      width: '50%',
+      width: '80%',
       position: 'relative',
       marginLeft: 'auto',
       marginRight: 'auto',

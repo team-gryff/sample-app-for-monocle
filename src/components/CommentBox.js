@@ -13,7 +13,7 @@ function CommentBox(props) {
   }
 
   const heartOn = {
-    backgroundImage: 'url(//instagramstatic-a.akamaihd.net/h1/sprites/core/3a91ff.png)',
+    backgroundImage: 'url(http://instagramstatic-a.akamaihd.net/h1/sprites/core/3a91ff.png)',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '-423px -321px',
     width: '24px',
@@ -25,7 +25,7 @@ function CommentBox(props) {
   }
 
   const heartOff = {
-    backgroundImage: 'url(//instagramstatic-a.akamaihd.net/h1/sprites/core/3a91ff.png)',
+    backgroundImage: 'url(http://instagramstatic-a.akamaihd.net/h1/sprites/core/3a91ff.png)',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '-449px -321px',
     width: '24px',
@@ -37,7 +37,7 @@ function CommentBox(props) {
   }
 
   const dotsStyle = {
-    backgroundImage: 'url(//instagramstatic-a.akamaihd.net/h1/sprites/core/3a91ff.png)',
+    backgroundImage: 'url(http://instagramstatic-a.akamaihd.net/h1/sprites/core/3a91ff.png)',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '-642px -268px',
     width: '44px',
